@@ -10,8 +10,6 @@ const cTable = require('console.table');
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
-//use api routes
-// app.use('/api', apiRoutes);
 
 //Default response for any other request (Not found)
 app.use((req, res) => {
